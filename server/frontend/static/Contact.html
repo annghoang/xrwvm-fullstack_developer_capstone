@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Contact Us - Car Dealership</title>
 </head>
 <body>
-    <nav>
-        <a href="Home.html">Home</a>
-        <a href="About.html">About</a>
-        <li class="nav-item active"><a class="nav-link" href="/contact">Contact Us</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Dealerships</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/contact">Contact Us</a></li>
+            </ul>
+        </div>
     </nav>
-    <h1>Contact Us</h1>
-    <img src="contact.jpg" alt="Contact">
-    <p>Email: support@carsdealership.com</p>
-    <p>Phone: 555-0198</p>a<li class="nav-item active"><a class="nav-link" href="/contact">Contact Us</a></li>
-    <p>Address: 123 Car Street, Auto City, AC 12345</p>
+    <div class="container mt-4">
+        <h2>Contact Us</h2>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="/static/contact.jpg" class="img-fluid rounded" alt="Contact Us">
+            </div>
+            <div class="col-md-6">
+                <h4>Get in Touch</h4>
+                <p><strong>Customer Support:</strong> support@dealership.com</p>
+                <p><strong>Sales Inquiry:</strong> sales@dealership.com</p>
+                <p><strong>Phone:</strong> +1 (800) 555-0199</p>
+                <p><strong>Address:</strong> 123 Main Street, Dallas, TX 75001</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
