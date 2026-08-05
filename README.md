@@ -1,4 +1,4 @@
-# ag-cars-dealership
+# fullstack_developer_capstone
 ## IBM Full Stack Software Developer Capstone Project - Car Dealership Application
 
-This project is a full-stack web application for car dealerships built using Django, React, Express, MongoDB, and IBM Cloud services.
+This repository contains the full-stack capstone project for the IBM Full Stack Software Developer Professional Certificate.
